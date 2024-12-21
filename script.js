@@ -32,7 +32,7 @@ function convertValues() {
     const dolarToday = 6.09;
     const euroToday = 6.38;
     const libraToday = 7.65;
-    const bitcoinToday = 593708.33;
+    const bitcoinToday = 594547.55;
 
     erro.textContent = ''; // Limpar qualquer erro existente
 
