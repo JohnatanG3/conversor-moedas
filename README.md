@@ -8,6 +8,7 @@ Este projeto é uma aplicação de conversão de moedas, onde você pode convert
 - **Prevenção de entradas inválidas**: O campo de entrada aceita apenas números e evita a digitação de caracteres inválidos, como letras e símbolos.
 - **Interface responsiva**: A interface é adaptável para diferentes tamanhos de tela, tornando o aplicativo acessível em dispositivos móveis.
 - **Feedback de erros**: Caso o valor inserido não seja válido, uma mensagem de erro será exibida.
+- **Atualização automática de taxas**: As taxas de câmbio são obtidas em tempo real por meio de uma API externa.
 
 ## 🚀 Tecnologias utilizadas
 
@@ -22,12 +23,7 @@ O JavaScript é responsável por realizar as seguintes ações:
 - **Capturar e processar entradas do usuário**.
 - **Realizar a conversão de moedas com base nas taxas de câmbio atuais**.
 - **Alterar a moeda de destino e exibir a imagem correspondente**.
-
-As taxas de câmbio utilizadas são as seguintes do dia 21 de Dezembro de 2024:
-- **Dólar (USD)**: 6.09
-- **Euro (EUR)**: 6.38
-- **Libra (GBP)**: 7.65
-- **Bitcoin (BTC)**: 593708.33
+- **Consumir API externa para obter taxas atualizadas em tempo real**.
 
 ## 📸 Demonstração 
 
